@@ -23,9 +23,7 @@ title: smellsfishy
 author: fishb6nes
 email: fishb6nes@noreply.github.com
 url: https://smellsfishy.com
-baseurl: ""
 description: Delicious graphics programming with a dash of gamedev on the side.
-permalink: /:slug.html
 favicon: smellsfishy.png
 
 # Build settings
@@ -33,7 +31,7 @@ remote_theme: riggraz/no-style-please
 theme_config:
   appearance: dark # can be "light", "dark" or "auto"
   back_home_text: "../" # customize text for homepage link in post layout
-  date_format: "%Y-%m-%d" # customize how date is formatted
+  date_format: "%Y年%m月%d日" # customize how date is formatted
   show_description: true # show blog description in home page
 sass:
   style: :compressed

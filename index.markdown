@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+[RSS feed]({% link feed.xml %})

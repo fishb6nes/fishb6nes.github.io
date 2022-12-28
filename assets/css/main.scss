@@ -7,6 +7,35 @@ body[a="dark"] {
     filter: invert(0.95);
 }
 
+header {
+    position: relative;
+}
+
+header h1::before {
+    content: '';
+    background-image: url('../../smellsfishy.png');
+    background-size: 100%;
+    display: block;
+    width: 96px;
+    height: 96px;
+    filter: invert(1);
+}
+
+@media only screen and (max-device-width: 719px) {
+    header h1::before {
+        margin-left: -16px;
+    }
+}
+
+@media only screen and (min-device-width: 720px) {
+    header h1::before {
+        display: inline-block;
+        position: absolute;
+        left: -96px;
+        top: -32px;
+    }
+}
+
 pre, p code {
     color: white;
     background: black;

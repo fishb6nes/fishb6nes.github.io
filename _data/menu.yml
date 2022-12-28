@@ -24,6 +24,3 @@ entries:
       show_more: true
       show_more_text: Browse all physics..
       show_more_url: physics-archive.html
-
-  - title: rss
-    url: feed.xml
