@@ -1,0 +1,29 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+
+entries:
+  - title: recent posts
+    post_list:
+      limit: 5
+      show_more: true
+      show_more_text: Browse all posts..
+      show_more_url: archive.html
+
+  - title: graphics
+    post_list:
+      category: graphics
+      limit: 5
+      show_more: true
+      show_more_text: Browse all graphics..
+      show_more_url: graphics-archive.html
+
+  - title: physics
+    post_list:
+      category: physics
+      limit: 5
+      show_more: true
+      show_more_text: Browse all physics..
+      show_more_url: physics-archive.html
+
+  - title: rss
+    url: feed.xml

@@ -1,0 +1,15 @@
+---
+---
+
+@import "no-style-please";
+
+body[a="dark"] {
+    filter: invert(0.95);
+}
+
+pre, p code {
+    color: white;
+    background: black;
+    padding: 2px;
+    border-radius: 2px;
+}
