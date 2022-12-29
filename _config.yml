@@ -29,10 +29,10 @@ favicon: smellsfishy.png
 # Build settings
 remote_theme: riggraz/no-style-please
 theme_config:
-  appearance: dark # can be "light", "dark" or "auto"
-  back_home_text: "../" # customize text for homepage link in post layout
-  date_format: "%Y年%m月%d日" # customize how date is formatted
-  show_description: true # show blog description in home page
+  appearance: "undefined"
+  back_home_text: "../"
+  date_format: "%Y年%m月%d日"
+  show_description: true
 sass:
   style: :compressed
 plugins:

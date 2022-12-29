@@ -1,11 +1,6 @@
 ---
 ---
-
 @import "no-style-please";
-
-body[a="dark"] {
-    filter: invert(0.95);
-}
 
 header {
     position: relative;
@@ -18,7 +13,12 @@ header h1::before {
     display: block;
     width: 96px;
     height: 96px;
-    filter: invert(1);
+}
+
+body[a="dark"] {
+    header h1::before {
+        filter: invert(1);
+    }
 }
 
 @media only screen and (max-device-width: 719px) {
@@ -34,6 +34,11 @@ header h1::before {
         left: -96px;
         top: -32px;
     }
+}
+
+.icon {
+    height: 16px;
+    margin-bottom: -4px;
 }
 
 pre, p code {
