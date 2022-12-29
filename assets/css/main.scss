@@ -3,8 +3,8 @@
 @import "no-style-please";
 
 html {
-    --white-color: rgb(242, 242, 242);
-    --black-color: rgb(8, 8, 8);
+    --white-color: rgb(244, 244, 244);
+    --black-color: rgb(7, 7, 7);
 }
 
 body {
@@ -88,10 +88,9 @@ header h1::before {
 }
 
 pre,
-pre code,
-p code {
+code {
     color: var(--background-color);
     background: var(--text-color);
-    padding: 2px;
-    border-radius: 2px;
+    padding: 2px 4px;
+    border-radius: 3px;
 }
